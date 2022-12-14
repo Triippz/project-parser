@@ -1,0 +1,33 @@
+{
+  "author": "Mark Tripoli",
+  "description": "Something about something",
+  "version": "1.0.0",
+  "componentRoot": "app",
+  "questions": [
+    {
+      "text": "What value do you want in your readme?",
+      "type": "string",
+      "tagValue": "readmeValue"
+    },
+    {
+      "text": "What is the name of your app?",
+      "type": "string",
+      "tagValue": "appName"
+    },
+    {
+      "text": "What is the description of your app?",
+      "type": "string",
+      "tagValue": "appDescription"
+    },
+    {
+      "text": "What is the title of your card?",
+      "type": "string",
+      "tagValue": "cardTitle"
+    },
+    {
+      "text": "What do you want the alert title to be?",
+      "type": "string",
+      "tagValue": "alertTitle"
+    }
+  ]
+}
