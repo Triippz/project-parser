@@ -21,14 +21,6 @@ function promptQuestion(message) {
     return readlineSync.question(`${message}: `);
 }
 
-/**
- * @param questions
- * @returns Map<string, { type: string, value: any}>
- *     The key = readmeValue
- *     The values:
- *          type: string - The type of the value
- *          value: any - The value entered by the user
- */
 function getQuestionAnswers(questions) {
     const answers = {};
 
