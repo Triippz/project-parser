@@ -33,8 +33,8 @@ function getQuestionAnswers(questions) {
 
 
 // run the method above
-let generatorJsonObject = readGeneratorFile("./example");
-let answers = getQuestionAnswers(generatorJsonObject.questions);
+const generatorJsonObject = readGeneratorFile("./example");
+const answers = getQuestionAnswers(generatorJsonObject.questions);
 
 copyAndParseDir("./example", "./example-output", generatorJsonObject.componentRoot, answers);
 
